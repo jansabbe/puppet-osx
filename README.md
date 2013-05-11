@@ -94,6 +94,16 @@ class { 'osx::universal_access::cursor_size':
 }
 ```
 
+`osx::dock::tile_size` - the size of the icons in the dock
+
+```puppet
+include osx::dock::tile_size
+
+class { 'osx::dock::tile_size':
+  tile_size => 46
+}
+```
+
 
 ## Required Puppet Modules
 
